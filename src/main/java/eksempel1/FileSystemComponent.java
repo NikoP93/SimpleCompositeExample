@@ -1,5 +1,7 @@
+package eksempel1;
+
 public interface FileSystemComponent {
 
-   //Dette inerface er en Component
+   //Dette inerface er et Component
     void showDetails();
 }

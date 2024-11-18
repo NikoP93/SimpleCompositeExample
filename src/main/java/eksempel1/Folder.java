@@ -1,8 +1,10 @@
+package eksempel1;
+
 import java.util.ArrayList;
 
-public class Folder implements FileSystemComponent{
+public class Folder implements FileSystemComponent {
 
-    //Folder er en composite, og kan derfor indeholde andre composites eller leafs.
+    //eksempel1.Folder er en composite, og kan derfor indeholde andre composites eller leafs.
     private String name;
     private ArrayList<FileSystemComponent> components = new ArrayList<>();
 
@@ -20,7 +22,7 @@ public class Folder implements FileSystemComponent{
 
     @Override
     public void showDetails(){
-        System.out.println("The name of this Folder: " + name);
+        System.out.println("The name of this eksempel1.Folder: " + name);
         for (FileSystemComponent component : components) {
             component.showDetails();
         }

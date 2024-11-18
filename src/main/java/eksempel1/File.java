@@ -1,6 +1,8 @@
-public class File implements FileSystemComponent{
+package eksempel1;
 
-    //File er en leaf, kan ikke indholde andre elementer.
+public class File implements FileSystemComponent {
+
+    //eksempel1.File er en leaf, kan ikke indholde andre elementer.
     private String name;
 
     public File(String name){
