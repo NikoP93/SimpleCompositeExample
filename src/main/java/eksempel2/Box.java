@@ -3,6 +3,7 @@ package eksempel2;
 import java.util.ArrayList;
 import java.util.List;
 
+//Composite klasse, har børn i en liste
 public class Box implements Order{
 
     private List<Order> itemlst = new ArrayList<Order>();
